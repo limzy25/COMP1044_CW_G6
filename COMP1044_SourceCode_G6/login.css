@@ -1,0 +1,47 @@
+.box {
+    width: 450px;
+    background-image: linear-gradient(#565869, grey);
+    margin: 0 auto;
+    opacity: .8;
+    color: #ddd;
+    border-radius: 25PX;
+    padding: 10PX;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form .login {
+    margin: auto 70px;
+}
+.login button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    position: relative;
+    border: 0px;
+}
+.login button:hover{
+    background-color: #ddd;
+    color: #aaa85a;
+    cursor: pointer;
+}
+
+.p a:hover{
+    color: #aaa85a;
+}
+
+.about_us {
+    float: right;
+    overflow: hidden;
+}
+
+::placeholder{
+    color: black;
+}
